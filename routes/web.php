@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Counter;
+use App\Http\Livewire\Calculator;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,3 +28,4 @@ Route::middleware([
     })->name("dashboard");
 });
 Route::view('/count','counter')->name("counter");
+Route::view('/calculator','calculator')->name("calculator");
